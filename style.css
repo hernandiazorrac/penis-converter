@@ -1,0 +1,82 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+.mainContainer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(140, 187, 204);
+}
+
+.appContainer{
+    width: 40em;
+    max-height: 50em;
+    padding: 30px;
+    background-color: lightblue;
+    border-radius:30px;
+    word-break: break-all;
+    overflow: auto;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    border-radius: 50%;
+  }
+
+#inputText{
+    border:none;
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+    width: 25em;
+    height: 3em;
+    padding-left: 20px;
+}
+
+.buttonsContainer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+#buttonGo, #buttonClear{
+    margin: 0 -5em;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    padding: 10px;
+}
+
+#output, #outputText{
+    display: none;
+    justify-content: center;
+}
+
+/* custom scrollbar */
+
+::-webkit-scrollbar{
+    width: .3em;
+}
+
+::-webkit-scrollbar-track{
+    background-color: blueviolet;
+    margin-block-start: 14em;
+    margin-block-end: 5.4em;
+    border-radius: 100vh;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: bisque;
+    border-radius: 100vh;
+}
