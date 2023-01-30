@@ -46,7 +46,7 @@
     transition: width ease-out 200ms;
 }
 
-#inputText:hover, #inputText:focus{
+#inputText:focus{
     width: 45em;
 }
 
