@@ -13,15 +13,19 @@
     <title>Penis converter</title>
 </head>
 <body class="mainContainer">
-    <div class="titleContainer">
-        <h3 class="title">Convert text to penis length.</h3>
+    <div class="titleContainer row">
+        <h3 class="title col">Convert text to penis length.</h3>
     </div>
 
-    <div id="appContainer">
-        <input type="text" name="" id="inputText" autocomplete="off">
-        <div class="buttonsContainer mt-4">
-            <button type="button" id="buttonGo" class="btn btn-dark me-5"><i class="fa-regular fa-paper-plane me-2"></i>Go!</button>
-            <button type="button" id="buttonClear" class="btn btn-dark"><i class="fa-regular fa-file me-2"></i>Clear</button>
+    <div id="appContainer" class="row">
+        <div class="row">
+            <div class="col">
+              <input type="text" name="" id="inputText" autocomplete="off">
+            </div>
+        </div>
+        <div class="buttonsContainer mt-4 row">
+            <button type="button" id="buttonGo" class="btn btn-dark col me-1"><i class="fa-regular fa-paper-plane me-2"></i>Go!</button>
+            <button type="button" id="buttonClear" class="btn btn-dark col ms-1"><i class="fa-regular fa-file me-2"></i>Clear</button>
         </div>
         <p id="output"></p>
         <p id="outputText"></p>

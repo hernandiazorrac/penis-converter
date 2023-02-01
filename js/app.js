@@ -52,7 +52,7 @@ const scrollFunction = () => {
 }
 
 const backToTop = () => {
-    appContainer.scrollTop = 0;
+    appContainer.scrollTo({top: 0, behavior: 'smooth'})
 }
 
 const copyToClipboard = () => {
